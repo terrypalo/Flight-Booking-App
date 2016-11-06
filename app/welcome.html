@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            welcome
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="welcome" id="welcome" class="type-interior"
+        data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="a" name="mobileheader" id="welcome_mobileheader" class="welcome_mobileheader">
+                <h1 dsid="mobileheader">
+                    Welcome
+                </h1>
+                <!-- btnAllSales --><!--
+                --><a data-role="button" name="btnAllSales" dsid="btnAllSales" class="welcome_btnAllSales ui-btn-right"
+                id="welcome_btnAllSales" data-corners="true" data-icon="arrow-r" data-iconpos="bottom"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="a"
+                tabindex="7">
+                all sales
+                </a><!--
+                --><!-- mobilelabel_2 -->
+                <div name="mobilelabel_2" id="welcome_mobilelabel_2" dsid="mobilelabel_2" data-role="appery_label"
+                class="welcome_mobilelabel_2">
+                </div>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="welcome_mobilecontainer" name="mobilecontainer" class="welcome_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="f">
+                <link href="welcome.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="welcome.js">
+                </script>
+                <!-- mobilelabel_10 -->
+                <div name="mobilelabel_10" id="welcome_mobilelabel_10" dsid="mobilelabel_10" data-role="appery_label"
+                class="welcome_mobilelabel_10">
+                    Place of destination
+                </div>
+                <!-- mnuPlaces -->
+                <div data-role="fieldcontain" class="welcome_mnuPlaces ">
+                    <select name="mnuPlaces" id="welcome_mnuPlaces" dsid="mnuPlaces" data-theme="a"
+                    data-role="appery_selectmenu" data-inline="false" data-mini="false" data-icon="arrow-d"
+                    data-iconpos="right" data-native-menu="false" tabindex="2" appery-class="welcome_mnuPlaces">
+                        <option id="welcome_mnuPlaces-0" value="1" reRender="mnuPlaces" dsid="mnuPlaces-0"
+                        selected="selected">
+                            Rome
+                        </option>
+                        <option id="welcome_mnuPlaces-1" value="2" reRender="mnuPlaces" dsid="mnuPlaces-1">
+                            Paris
+                        </option>
+                        <option id="welcome_mnuPlaces-2" value="3" reRender="mnuPlaces" dsid="mnuPlaces-2">
+                            London
+                        </option>
+                        <option id="welcome_mnuPlaces-3" value="4" reRender="mnuPlaces" dsid="mnuPlaces-3">
+                            Dubai
+                        </option>
+                        <option id="welcome_mnuPlaces-4" value="5" reRender="mnuPlaces" dsid="mnuPlaces-4">
+                            Delhi
+                        </option>
+                        <option id="welcome_mnuPlaces-5" value="6" reRender="mnuPlaces" dsid="mnuPlaces-5">
+                            Moscow
+                        </option>
+                        <option id="welcome_mnuPlaces-6" value="7" reRender="mnuPlaces" dsid="mnuPlaces-6">
+                            Kochi
+                        </option>
+                        <option id="welcome_mnuPlaces-7" value="8" reRender="mnuPlaces" dsid="mnuPlaces-7">
+                            Bangkok
+                        </option>
+                        <option id="welcome_mnuPlaces-8" value="9" reRender="mnuPlaces" dsid="mnuPlaces-8">
+                            Taipei
+                        </option>
+                        <option id="welcome_mnuPlaces-9" value="10" reRender="mnuPlaces" dsid="mnuPlaces-9">
+                            Sydney
+                        </option>
+                        <option id="welcome_mnuPlaces-10" value="11" reRender="mnuPlaces" dsid="mnuPlaces-10">
+                            Perth
+                        </option>
+                        <option id="welcome_mnuPlaces-11" value="12" reRender="mnuPlaces" dsid="mnuPlaces-11">
+                            Auckland
+                        </option>
+                        <option id="welcome_mnuPlaces-12" value="13" reRender="mnuPlaces" dsid="mnuPlaces-12">
+                            Mexico City
+                        </option>
+                        <option id="welcome_mnuPlaces-13" value="14" reRender="mnuPlaces" dsid="mnuPlaces-13">
+                            Sao Paulo
+                        </option>
+                    </select>
+                </div>
+                <!-- spacer_12 -->
+                <div id="welcome_spacer_12" data-role="appery_spacer" dsid="spacer_12" class='mobilespacer welcome_spacer_12'>
+                </div>
+                <!-- mobilelabel_11 -->
+                <div name="mobilelabel_11" id="welcome_mobilelabel_11" dsid="mobilelabel_11" data-role="appery_label"
+                class="welcome_mobilelabel_11">
+                    Number of seats
+                </div>
+                <!-- mnuNumseats -->
+                <div data-role="fieldcontain" class="welcome_mnuNumseats ">
+                    <select name="mnuNumseats" id="welcome_mnuNumseats" dsid="mnuNumseats" data-theme="a"
+                    data-role="appery_selectmenu" data-inline="false" data-mini="false" data-icon="arrow-d"
+                    data-iconpos="right" data-native-menu="false" tabindex="3" appery-class="welcome_mnuNumseats">
+                        <option id="welcome_mnuNumseats-0" value="1" reRender="mnuNumseats" dsid="mnuNumseats-0"
+                        selected="selected">
+                            1
+                        </option>
+                        <option id="welcome_mnuNumseats-1" value="2" reRender="mnuNumseats" dsid="mnuNumseats-1">
+                            2
+                        </option>
+                        <option id="welcome_mnuNumseats-2" value="3" reRender="mnuNumseats" dsid="mnuNumseats-2">
+                            3
+                        </option>
+                        <option id="welcome_mnuNumseats-3" value="4" reRender="mnuNumseats" dsid="mnuNumseats-3">
+                            4
+                        </option>
+                        <option id="welcome_mnuNumseats-4" value="5" reRender="mnuNumseats" dsid="mnuNumseats-4">
+                            5
+                        </option>
+                        <option id="welcome_mnuNumseats-5" value="6" reRender="mnuNumseats" dsid="mnuNumseats-5">
+                            6
+                        </option>
+                        <option id="welcome_mnuNumseats-6" value="7" reRender="mnuNumseats" dsid="mnuNumseats-6">
+                            7
+                        </option>
+                        <option id="welcome_mnuNumseats-7" value="8" reRender="mnuNumseats" dsid="mnuNumseats-7">
+                            8
+                        </option>
+                        <option id="welcome_mnuNumseats-8" value="9" reRender="mnuNumseats" dsid="mnuNumseats-8">
+                            9
+                        </option>
+                        <option id="welcome_mnuNumseats-9" value="10" reRender="mnuNumseats" dsid="mnuNumseats-9">
+                            10
+                        </option>
+                    </select>
+                </div>
+                <!-- mobilegrid_16 -->
+                <div class="welcome_mobilegrid_16_wrapper" data-wrapper-for="mobilegrid_16">
+                    <table id="welcome_mobilegrid_16" class="welcome_mobilegrid_16" dsid="mobilegrid_16"
+                    name="mobilegrid_16" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="welcome_mobilegrid_16_row_0">
+                            <!-- mobilegridcell_17 -->
+                            <td id="welcome_mobilegridcell_17" name="mobilegridcell_17" class="welcome_mobilegridcell_17"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_21 -->
+                                    <div name="mobilelabel_21" id="welcome_mobilelabel_21" dsid="mobilelabel_21" data-role="appery_label"
+                                    class="welcome_mobilelabel_21">
+                                        Price: $
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_18 -->
+                            <td id="welcome_mobilegridcell_18" name="mobilegridcell_18" class="welcome_mobilegridcell_18"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblQuote -->
+                                    <div name="lblQuote" id="welcome_lblQuote" dsid="lblQuote" data-role="appery_label"
+                                    class="welcome_lblQuote">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- spacer_15 -->
+                <div id="welcome_spacer_15" data-role="appery_spacer" dsid="spacer_15" class='mobilespacer welcome_spacer_15'>
+                </div>
+                <!-- btnQuote --><!--
+                --><a data-role="button" name="btnQuote" dsid="btnQuote" class="welcome_btnQuote" id="welcome_btnQuote"
+                data-corners="true" data-icon="none" data-iconpos='nowhere' x-apple-data-detectors="false"
+                data-mini="false" data-theme="a" tabindex="4">
+                Get a Quote
+                </a><!--
+                --><!-- btnBook --><!--
+                --><a data-role="button" name="btnBook" dsid="btnBook" class="welcome_btnBook" id="welcome_btnBook"
+                data-corners="true" data-icon="none" data-iconpos='nowhere' x-apple-data-detectors="false"
+                data-mini="false" data-theme="a" tabindex="5">
+                Book trip
+                </a>
+            </div>
+            <!-- welcomepopup -->
+            <div data-role="popup" name="welcomepopup" dsid="welcomepopup" id="welcome_welcomepopup"
+            class="welcome_welcomepopup" data-corners="true" data-dismissible="true" data-overlay-theme=""
+            data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- lblbookstatus -->
+                    <div name="lblbookstatus" id="welcome_lblbookstatus" dsid="lblbookstatus" data-role="appery_label"
+                    class="welcome_lblbookstatus">
+                        Label
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

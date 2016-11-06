@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            signUp
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="signUp" id="signUp" class="type-interior"
+        data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="a" name="mobileheader" id="signUp_mobileheader" class="signUp_mobileheader">
+                <h1 dsid="mobileheader">
+                    Sign up
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="signUp_mobilecontainer" name="mobilecontainer" class="signUp_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="f">
+                <link href="signUp.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="signUp.js">
+                </script>
+                <!-- lblSignUpName -->
+                <div data-role="fieldcontain" class="signUp_lblSignUpName ">
+                    <input type="text" name="lblSignUpName" dsid="lblSignUpName" value="" placeholder="Name"
+                    id="signUp_lblSignUpName" tabindex="1" multiple data-theme="f" class="signUp_lblSignUpName"
+                    />
+                </div>
+                <!-- spacer_3 -->
+                <div id="signUp_spacer_3" data-role="appery_spacer" dsid="spacer_3" class='mobilespacer signUp_spacer_3'>
+                </div>
+                <!-- lblSignUpEmail -->
+                <div data-role="fieldcontain" class="signUp_lblSignUpEmail ">
+                    <input type="text" name="lblSignUpEmail" dsid="lblSignUpEmail" value="" placeholder="Email"
+                    id="signUp_lblSignUpEmail" tabindex="2" multiple data-theme="f" class="signUp_lblSignUpEmail"
+                    />
+                </div>
+                <!-- spacer_6 -->
+                <div id="signUp_spacer_6" data-role="appery_spacer" dsid="spacer_6" class='mobilespacer signUp_spacer_6'>
+                </div>
+                <!-- btnSignUpSubmit --><!--
+                --><a data-role="button" name="btnSignUpSubmit" dsid="btnSignUpSubmit" class="signUp_btnSignUpSubmit"
+                id="signUp_btnSignUpSubmit" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="a" tabindex="3">
+                Submit
+                </a>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="signUp_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="signUp_mobilefooter" data-theme="a">
+            </div>
+            <!-- mobilepopup_7 -->
+            <div data-role="popup" name="mobilepopup_7" dsid="mobilepopup_7" id="signUp_mobilepopup_7"
+            class="signUp_mobilepopup_7" data-corners="true" data-dismissible="true" data-overlay-theme=""
+            data-theme="a" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- lblpopupsignup -->
+                    <div name="lblpopupsignup" id="signUp_lblpopupsignup" dsid="lblpopupsignup" data-role="appery_label"
+                    class="signUp_lblpopupsignup">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

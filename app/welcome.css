@@ -1,0 +1,146 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* btnAllSales */
+#welcome_btnAllSales {
+
+}
+.ui-btn.welcome_btnAllSales {
+
+}
+/* mobilelabel_2 */
+.welcome_mobilelabel_2 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilecontainer */
+.ui-content.welcome_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilelabel_10 */
+.welcome_mobilelabel_10 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mnuPlaces */
+.welcome_mnuPlaces {
+	margin: 4px 5px 4px 5px;
+}
+/* spacer_12 */
+.welcome_spacer_12 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_11 */
+.welcome_mobilelabel_11 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mnuNumseats */
+.welcome_mnuNumseats {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilegrid_16 */
+.welcome_mobilegrid_16 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.welcome_mobilegrid_16_wrapper {
+	display: none;
+}
+.welcome_mobilegrid_16 > tr > td {
+	vertical-align: top;
+}
+.welcome_mobilegrid_16_row_0, .welcome_mobilegrid_16_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_17 */
+.welcome_mobilegridcell_17 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.welcome_mobilegridcell_17 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_21 */
+.welcome_mobilelabel_21 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: right; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_18 */
+.welcome_mobilegridcell_18 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.welcome_mobilegridcell_18 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblQuote */
+.welcome_lblQuote {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_15 */
+.welcome_spacer_15 {
+	width: 260px; height: 30px;
+	margin: 4px 0px 4px 0px;
+}
+/* btnQuote */
+#welcome_btnQuote {
+
+}
+.ui-btn.welcome_btnQuote {
+	margin: 4px 5px 4px 5px;
+}
+/* btnBook */
+#welcome_btnBook {
+	display: none;
+}
+.ui-btn.welcome_btnBook {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.welcome_mobilefooter {
+	min-height:38px;
+}
+/* welcomepopup */
+.welcome_welcomepopup {
+
+}
+div.welcome_welcomepopup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.welcome_welcomepopup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* lblbookstatus */
+.welcome_lblbookstatus {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}

@@ -1,0 +1,60 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.signUp_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* lblSignUpName */
+.signUp_lblSignUpName {
+	margin: 4px 0px 4px 0px;
+}
+/* spacer_3 */
+.signUp_spacer_3 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* lblSignUpEmail */
+.signUp_lblSignUpEmail {
+	margin: 4px 0px 4px 0px;
+}
+/* spacer_6 */
+.signUp_spacer_6 {
+	width: 260px; height: 34px;
+	margin: 4px 0px 4px 0px;
+}
+/* btnSignUpSubmit */
+#signUp_btnSignUpSubmit {
+
+}
+.ui-btn.signUp_btnSignUpSubmit {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.signUp_mobilefooter {
+	min-height:38px;
+}
+/* mobilepopup_7 */
+.signUp_mobilepopup_7 {
+
+}
+div.signUp_mobilepopup_7 {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.signUp_mobilepopup_7 .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* lblpopupsignup */
+.signUp_lblpopupsignup {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
